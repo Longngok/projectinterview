@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(".toggle-icon").click(function() {
-    $(".main-mobile_navbar_child").toggleClass("active");
+    $("nav").toggleClass("active");
     });
 });
 

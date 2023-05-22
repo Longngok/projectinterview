@@ -5,82 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="main-mobile_navbar">
-        <div>
-            <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
-        </div>
-
-        <div class="main-mobile_navbar_child">
+    <header>
+        <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
+        <nav>
             <ul>
+                <li><a href="works.html"><b>Works</b></a></li>
                 <li><a href="blog.html"><b>Blog</b></a></li>
-                <li><a href=""><b>Works</b></a></li>
                 <li><a href=""><b>Contact</b></a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="works">
-        <h1>Feature Works</h1>
+    <main class="works">
+        <h1>Works</h1>
         
-        <div>
-            <div class="feature-child">
+        <artical class="feature">
+            <section class="feature-child">
                 <a href="worksdetail.html"><img src="./Pic/dahsboard-design-best-practices-example.png" alt=""></a>
-
-                <div class="feature-child_design">
-                    <h2><a href="worksdetail.html">Design Dashboard</a></h2>
-                    <div class="feature-child_design_p">
-                        <p>2020</p>
-                        <p>Dashboard</p>
-                    </div>
-                    <div class="overflow">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                <h2><a class="h2" href="worksdetail.html">Design Dashboard</a></h2>
+                <div class="flex">
+                    <span>2020</span>
+                    <span>Dashboard</span>
                 </div>
-            </div>
-            <hr>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </section>
 
-            <div class="feature-child">
+            <section class="feature-child">
                 <a href="worksdetail.html"><img src="./Pic/dahsboard-design-best-practices-example.png" alt=""></a>
-
-                <div class="feature-child_design">
-                    <h2><a href="worksdetail.html">Vibrant Portraits of 2020</a></h2>
-                    <div class="feature-child_design_p">
-                        <p>2018</p>
-                        <p>Illustration</p>
-                    </div>
-                    <div class="overflow">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                <h2><a href="worksdetail.html">Design Dashboard</a></h2>
+                <div class="flex">
+                    <span>2020</span>
+                    <span>Dashboard</span>
                 </div>
-            </div>
-            <hr>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </section>
 
-            <div class="feature-child">
+            <section class="feature-child">
                 <a href="worksdetail.html"><img src="./Pic/dahsboard-design-best-practices-example.png" alt=""></a>
-
-                <div class="feature-child_design">
-                    <h2><a href="worksdetail.html">36 Days of Malayalam type</a></h2>
-                    <div class="feature-child_design_p">
-                        <p>2018</p>
-                        <p>Typography</p>
-                    </div>
-                    <div class="overflow">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                <h2><a href="worksdetail.html">Design Dashboard</a></h2>
+                <div class="flex">
+                    <span>2020</span>
+                    <span>Dashboard</span>
                 </div>
-            </div>
-            <hr>
-        </div>
-    </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </section>
+        </artical>
+    </main>
     
-        <div class="footer">
-            <div class="footer-icon">
-                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-            </div>
-            <p>Copyright ©2020 All rights reserved</p>
+    <footer class="footer">
+        <div class="footer-icon">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
         </div>
-    </div>
+        <p>Copyright ©2020 All rights reserved</p>
+    </footer>
 </body>
 <script src="./script.js"></script>
 </html>

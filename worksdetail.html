@@ -5,35 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css">
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="main-mobile_navbar">
-        <div>
-            <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
-        </div>
-
-        <div class="main-mobile_navbar_child">
+    <header>
+        <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
+        <nav>
             <ul>
                 <li><a href="works.html"><b>Works</b></a></li>
                 <li><a href="blog.html"><b>Blog</b></a></li>
                 <li><a href=""><b>Contact</b></a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="workdetail">
-        <div class="workdetail-child">
+    <main class="workdetail">
+        <section class="workdetail-child">
                 <h1>Designing Dashboards with usability in mind</h1>
             <div class="workdetail-child_design">
                 <span class="workdetail-child_design_p1">2020</span>
                 <span class="workdetail-child_design_p2">Dashboard, User Experience Design</span>
             </div>
-
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
+        </section>
 
         <img src="./Pic/6-best-practices-for-Dashboard-Design-Justinmind-header-768x492.png" alt="">
             <h2>Heading 1</h2>
@@ -41,16 +38,16 @@
         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         <img src="./Pic/toyota-ae86-car-anime-0cdm5j2bzz61icdk.jpg" alt="">
         <img src="./Pic/1557567429825mQH8PotXDSI7.jpg" alt="">
-    </div>
-        <div class="footer">
-            <div class="footer-icon">
-                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-            </div>
-            <p>Copyright ©2020 All rights reserved</p>
+    </main>
+        
+    <footer class="footer">
+        <div class="footer-icon">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
         </div>
-    </div>
+        <p>Copyright ©2020 All rights reserved</p>
+    </footer>
 </body>
 <script src="./script.js"></script>
 </html>
