@@ -307,8 +307,6 @@
    .blog
    {
     margin-top: 150px;
-    margin-left: 4%;
-    margin-right: 4%;
    }
 
    .blog a{
@@ -378,25 +376,20 @@
    .works
    {
     margin-top: 40%;
-    margin-left: 4%;
-    margin-right: 4%;
    }
 
    .works h1
    {
-    font-family: 'Heebo';
-    font-style: normal;
     font-weight: 900;
     font-size: 35px;
     line-height: 60px;
     color: #21243D;
+    margin-left: 2%;
    }
 
    .works h2
    {
     margin-top: 0;
-    font-family: 'Heebo';
-    font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 44px;
